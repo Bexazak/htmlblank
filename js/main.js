@@ -1,18 +1,8 @@
 $(document).ready(function() {
-	// подключение слайдеров
-	$('.slider').flexslider({
-		animation: 'slide',
-		directionNav: false,
-    slideshow: false
-	});
-
 	// подключение fancybox
 	$('.fancy').fancybox({
 		padding: 0
 	})
-
-	// маска ввода для телефона
-	$('.phone').mask("+7 (999) 999-99-99", {placeholder:"_"});
 
 	// Валидация формы
   	$('.allform').each(function(){
