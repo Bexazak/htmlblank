@@ -1,0 +1,25 @@
+@font-face {font-family: 'fontname'; src: url("../fonts/fontname.eot");}
+@font-face {font-family: 'fontname'; src: url("../fonts/fontname.ttf");}
+
+body {
+	background: #fff;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+.clearboth {
+	clear: both;
+}
+
+.header {
+}
+
+.allform .error {
+	box-shadow: inset 0 0 10px 0px #FD3535;
+}
